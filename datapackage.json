@@ -1,0 +1,35 @@
+{
+    "name": "comptage-mobilite",
+    "title": "Comptage des mobilites",
+    "description": "data package d'exemple pour les lieux proposant des services",
+    "id": "comptage-mobilite",
+    "resources": [
+        {
+          "name": "site",
+          "path": "exemple-valide-site.csv",
+          "profile": "tabular-data-resource",
+          "format": "csv",
+          "mediatype": "text/csv",
+          "encoding": "utf-8",
+          "schema": "site.json"
+        },
+        {
+          "name": "measure",
+          "path": "exemple-valide-measure.csv",
+          "profile": "tabular-data-resource",
+          "format": "csv",
+          "mediatype": "text/csv",
+          "encoding": "utf-8",
+          "schema": "measure.json"
+        },
+        {
+          "name": "channel",
+          "path": "exemple-valide-channel.csv",
+          "profile": "tabular-data-resource",
+          "format": "csv",
+          "mediatype": "text/csv",
+          "encoding": "utf-8",
+          "schema": "channel.json"
+        }
+      ]
+    }
